@@ -1,0 +1,58 @@
+.landing-container {
+  height: 100%;
+  overflow: hidden;
+}
+.landing-curve {
+  position: relative;
+  background: radial-gradient(
+      120% 50vh at 50% 100px,
+      #02464f 75%,
+      transparent 75%
+    )
+    no-repeat;
+  height: 55vh;
+}
+.landing-header {
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  color: #fff;
+}
+.landing-subheader {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+.landing-bottom {
+  width: 100%;
+}
+.landing-btn {
+  width: fit-content;
+  margin: 125px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  border: 3px solid #02464f;
+  background-color: transparent;
+  color: #02464f;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: medium;
+  transition: background-color 0.5s ease;
+  transition: color 0.75s ease;
+}
+.landing-btn:hover {
+  cursor: pointer;
+  background-color: #02464f;
+  color: #fff;
+  border: 3px solid #fff !important;
+}
